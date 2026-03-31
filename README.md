@@ -14,7 +14,14 @@ Un análisis de datos del mercado europeo de halterofilia (2019–2021) para val
 
 ```
 european-weightlifting-analysis/
-├── weightlifting_analysis.ipynb   # pipeline completo: limpieza, EDA, hipótesis
+├── data/
+│   ├── halterofilia_2019.csv
+│   ├── halterofilia_2020.csv
+│   ├── halterofilia_2022.csv
+│   ├── halterofilia_2023.csv
+│   └── halterofilia_2024.csv
+├── weightlifting_analysis.ipynb     # Pipeline completo de análisis
+├── Lift_and_Lead.pptx               # Presentación PPT
 └── README.md
 ```
 
@@ -24,8 +31,6 @@ european-weightlifting-analysis/
 pip install pandas numpy matplotlib seaborn plotly missingno fuzzywuzzy jupyter
 jupyter notebook weightlifting_analysis.ipynb
 ```
-
-los datos originales son CSVs scrapeados de Wikipedia con resultados de los campeonatos europeos. actualiza las rutas en la celda de carga de datos.
 
 ## contexto del análisis
 
