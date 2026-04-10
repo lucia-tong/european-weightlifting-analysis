@@ -1,16 +1,16 @@
 # European Weightlifting Market Analysis
 
-Un análisis de datos del mercado europeo de halterofilia (2019–2021) para validar la hipótesis de negocio de Lift & Lead, una startup que evalúa abrir centros especializados en este deporte. Proyecto del Máster en Data & AI — Nuclio Digital School.
+A data-driven analysis of the European weightlifting market (2019–2021) designed to validate the business hypothesis for Lift & Lead, a startup evaluating the opening of specialized training centers. Developed as part of the Master’s in Data & AI — Nuclio Digital School.
 
-## qué hace
+## Key Features
 
-* carga y limpia datos de los campeonatos europeos de halterofilia de 2019 y 2021
-* transforma el dataset de formato ancho a largo para facilitar el análisis por medallista
-* extrae nombre, apellido, país y resultados (arrancada, dos tiempos, total) de cada atleta
-* analiza la distribución de medallas por país y género
-* valida hipótesis de crecimiento del deporte con datos reales de competición
+* Data Wrangling: Loads and cleans data from the 2019 and 2021 European Weightlifting Championships.
+* Reshaping: Transforms the dataset from wide to long format to streamline medalist-level analysis.
+* Feature Extraction: Isolates key variables including athlete names, country, and performance metrics (Snatch, Clean & Jerk, and Total).
+* Competitive Landscape: Analyzes medal distribution by country and gender to identify market hotspots.
+* Hypothesis Validation: Uses real competition data to assess the growth and viability of the sport for business expansion.
 
-## estructura
+## Project Structure
 
 ```
 european-weightlifting-analysis/
@@ -25,17 +25,16 @@ european-weightlifting-analysis/
 └── README.md
 ```
 
-## cómo ejecutarlo
-
+## Installation & Usage
 ```bash
 pip install pandas numpy matplotlib seaborn plotly missingno fuzzywuzzy jupyter
 jupyter notebook weightlifting_analysis.ipynb
 ```
 
-## contexto del análisis
+## Analysis Context
 
-los datos de 2020 corresponden realmente a 2021 porque el campeonato de 2020 fue cancelado por la pandemia de COVID-19.
+Please note that data labeled 2020 actually refers to the 2021 championships, as the 2020 event was cancelled due to the COVID-19 pandemic.
 
-## stack
+## Tech Stack
 
-python · pandas · numpy · matplotlib · seaborn · plotly · missingno · fuzzywuzzy
+Python (Pandas, Numpy, Matplotlib, Seaborn, Plotly, Missingno, Fuzzywuzzy) · Jupyter Notebook
